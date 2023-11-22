@@ -1,9 +1,9 @@
 import React from "react";
-
+import Home from "./components/Home";
 const App = () => {
   return (
     <div>
-      <h1 className="p-5 text-3xl ">Untd Dgtl</h1>
+      <Home></Home>
     </div>
   );
 };
