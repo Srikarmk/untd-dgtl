@@ -7,3 +7,8 @@
   height: 100vh;
   background-image: url(./assets/bg-untd.jpg);
 }
+
+html {
+  scroll-behavior: smooth;
+  font-family: "Nunito", "Poppins", sans-serif;
+}
