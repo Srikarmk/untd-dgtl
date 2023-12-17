@@ -2,7 +2,7 @@ import { useState } from "react";
 import "../index.css";
 import Footer from "./Footer";
 import { Link } from "react-router-dom";
-import artist from "../assets/artist.jpg";
+import anees from "../assets/anees.jpg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 // import Menu from "./Menu";
@@ -32,7 +32,7 @@ const Home = () => {
           </Link>
         </div>
         <div className="w-[40%]">
-          <img src={artist} alt="artist" width={400} className="mx-auto" />
+          <img src={anees} alt="artist" width={400} className="mx-auto" />
         </div>
       </div>
       <Footer></Footer>
